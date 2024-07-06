@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.btn-container {
+  text-align: center;
+}
+#hero .hero-content .btn {
+  padding: 12px 30px 12px 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  margin-top: 15px;
+  transition: ease 500ms;
+  cursor: pointer;
+}
+#hero .hero-content .btn:hover {
+  background: rgb(80, 155, 10);
+}
+
+#hero {
+  background: linear-gradient(
+      360deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(assets/hero-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 1366px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-content {
+  width: 685px;
+}
+
+#hero .hero-content .subtilte {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+}
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+#card-box {
+  width: 884px;
+  margin: 120px auto;
+}
+#card-box .subtilte {
+  color: rgb(16, 16, 16);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.card .image-box {
+  width: 250px;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  padding: 8px 23px 8px 23px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+.card p {
+  color: rgb(16, 16, 16);
+}
+.card .btn {
+  padding: 8px 27px 8px 27px;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  margin-top: 15px;
+  transition: ease 500ms;
+  cursor: pointer;
+}
+.card .btn:hover {
+  background: rgb(80, 155, 10);
+}
